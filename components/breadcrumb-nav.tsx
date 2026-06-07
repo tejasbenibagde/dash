@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation"
 import Link from "next/link"
-import { ChevronRight } from "lucide-react"
+import { IconChevronRight } from "@tabler/icons-react"
 
 export function BreadcrumbNav() {
   const pathname = usePathname()
@@ -31,7 +31,7 @@ export function BreadcrumbNav() {
       </Link>
       {breadcrumbs.map((crumb, index) => (
         <div key={crumb.href} className="flex items-center gap-2">
-          <ChevronRight className="size-4" />
+          <IconChevronRight className="size-4" />
           {index === breadcrumbs.length - 1 ? (
             <span className="text-foreground font-medium">{crumb.label}</span>
           ) : (
