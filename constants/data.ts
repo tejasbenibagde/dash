@@ -1,68 +1,78 @@
 const data = {
     navMain: [
         {
-            title: "Getting Started",
-            url: "getting-started",
+            title: "Dashboard",
+            url: "dashboard",
             items: [
                 {
-                    title: "Home",
-                    url: "getting-started/home",
+                    title: "Overview",
+                    url: "dashboard/overview",
+                },
+                {
+                    title: "System Metrics",
+                    url: "dashboard/metrics",
                 },
             ],
         },
         {
-            title: "API Reference",
-            url: "api-reference",
+            title: "Organization",
+            url: "organization",
             items: [
                 {
-                    title: "Components",
-                    url: "api-reference/components",
+                    title: "News & Updates",
+                    url: "organization/news",
                 },
                 {
-                    title: "File Conventions",
-                    url: "api-reference/file-conventions",
+                    title: "Notices",
+                    url: "organization/notices",
                 },
                 {
-                    title: "Functions",
-                    url: "api-reference/functions",
+                    title: "Events",
+                    url: "organization/events",
                 },
                 {
-                    title: "next.config.js Options",
-                    url: "api-reference/next.config.js-options",
+                    title: "Activities",
+                    url: "organization/activities",
                 },
                 {
-                    title: "CLI",
-                    url: "api-reference/cli",
-                },
-                {
-                    title: "Edge Runtime",
-                    url: "api-reference/edge-runtime",
+                    title: "Birthdays",
+                    url: "organization/birthdays",
                 },
             ],
         },
         {
-            title: "Architecture",
-            url: "architecture",
+            title: "HR & Management",
+            url: "hr",
             items: [
                 {
-                    title: "Accessibility",
-                    url: "architecture/accessibility",
+                    title: "Tasks",
+                    url: "hr/tasks",
                 },
                 {
-                    title: "Fast Refresh",
-                    url: "architecture/fast-refresh",
+                    title: "Approved Documents",
+                    url: "hr/documents",
                 },
                 {
-                    title: "Next.js Compiler",
-                    url: "architecture/next.js-compiler",
+                    title: "Notifications",
+                    url: "hr/notifications",
+                },
+            ],
+        },
+        {
+            title: "Services",
+            url: "services",
+            items: [
+                {
+                    title: "CRM Status",
+                    url: "services/crm",
                 },
                 {
-                    title: "Supported Browsers",
-                    url: "architecture/supported-browsers",
+                    title: "ERP Status",
+                    url: "services/erp",
                 },
                 {
-                    title: "Turbopack",
-                    url: "architecture/turbopack",
+                    title: "Other Services",
+                    url: "services/other",
                 },
             ],
         },
